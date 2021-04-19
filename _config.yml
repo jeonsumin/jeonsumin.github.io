@@ -1,0 +1,14 @@
+# User config
+author: "Terry"
+tagline: "Pineapple Certfied Jekyll Theme"
+description: ""
+keywords: "Pineapple, Pineapple Pizza, Pineapple House"
+email: "soomis7@icloud.com"
+github: "https://github.com/jeonsumin"
+
+# Site config
+baseurl: ""
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
