@@ -9,7 +9,7 @@ meta:
 project:
   title: "MusicPlayer"
   type: "iOS"
-  logo: "/assets/images/projects/musicPlayer/MusicPlayer.png"
+  logo: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/musicPlayer/MusicPlayer.png"
   tech: "iOS, Swift, AVFoundation,"
 
 agency:
@@ -19,8 +19,8 @@ agency:
 
 images:
   - image:
-    url: "/assets/images/projects/musicPlayer/musicPlayer_main.png"
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/musicPlayer/musicPlayer_main.png"
   - image:
-    url: "/assets/images/projects/musicPlayer/musicPlayer_play.png"
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/musicPlayer/musicPlayer_play.png"
 ---
 <p>AVFoundation을 활용하여 음악 플레이어 앱 구현</p>

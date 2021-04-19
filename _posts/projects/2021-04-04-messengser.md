@@ -9,7 +9,7 @@ meta:
 project:
   title: "Messenger"
   type: "iOS"
-  logo: "/assets/images/projects/messenger/messenger.png"
+  logo: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger.png"
   tech: "Firebase, FBSDKLoginKit, GooleSignIn, MessageKit, JGProgressHUD, RealmSwift, SDWebImage"
 
 agency:
@@ -19,14 +19,14 @@ agency:
 
 images:
   - image:
-    url: "/assets/images/projects/messenger/messenger_join.png"
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger_join.png"
   - image:
-    url: "/assets/images/projects/messenger/messenger_chat.png"
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger_chat.png"
   - image:
-    url: "/assets/images/projects/messenger/messenger_list.png"
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger_list.png"
   - image:
-    url: "/assets/images/projects/messenger/messenger_search.png"
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger_search.png"
   - image:
-    url: "/assets/images/projects/messenger/messenger_profile.png"  
+    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger_profile.png"  
 ---
 <p> Firebase 및 messageKit을 활용하여 실시간 채팅 서비스 구현 </p>
