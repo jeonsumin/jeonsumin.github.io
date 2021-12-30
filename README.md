@@ -32,12 +32,12 @@ $ cd pineapple
 Start Jekyll:
 
 ```
-$ jekyll serve
+>$ jekyll serve
 ```
 
 Browse to http://127.0.0.1:4000/pineapple/ for some Pineapple goodness.
 
-## Deploy to Github Pages
+## Deploy to Github Pages 
 
 1. Fork this repository, then rename the repository to yourgithubusername.github.io.
 2. Update user configuration values in `_config.yml`, and also set `baseurl: ""`.
