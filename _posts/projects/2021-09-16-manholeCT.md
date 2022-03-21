@@ -4,27 +4,25 @@ permalink: /:title/
 category: projects
 
 meta:
-keywords: "Terry, iOS, Swift"
+  keywords: "Terry, iOS, Swift"
 
 project:
-title: "ManholeCT"
-type: "iOS"
-logo: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow.jpg"
-tech: "iOS, BLE,  "
+  title: "ManholeCT"
+  type: "iOS"
+  logo: "https://user-images.githubusercontent.com/51107183/159286328-d8501594-c64e-4701-b497-6f67e2d7ac0c.png"
+  details:
+    - "블루투스 통신을 통해 근처 디바이스 조회 목록 제공"
+    - "블루투스 연결 및 해당 디바이스 컨트롤"
+  techs:
+    - "Firebase"
+    - "Toast-Swift"
+    - "CryptoSwift"
 
 agency:
-title: "Go gitHub"
-url: "https://github.com/jeonsumin/CoinFlow"
-year: "2020.9, 2020.10"
- 
+  year: "2020.9, 2020.10"
+
 images:
-- image:
-  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_chart.png"
-- image:
-  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_chartDetail.png"
-- image:
-  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_news.png"
-- image:
-  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_newsDetail.png"
+  - image:
+    url: "https://user-images.githubusercontent.com/51107183/159265617-17c2764d-273e-4f5d-8144-aac38adceed1.png"
 ---
-<p>내가 보고싶은 코인의 일,주,월,년의 코인차트를 확인할 수 있고 코인에 대한 뉴스를 확인할 수 있는 어플 구현</p>
+맨홀 관제 마스터 컨트롤 어플 
