@@ -10,7 +10,21 @@ project:
   title: "Messenger"
   type: "iOS"
   logo: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/messenger/messenger.png"
-  tech: "Firebase, FBSDKLoginKit, GooleSignIn, MessageKit, JGProgressHUD, RealmSwift, SDWebImage"
+  details: 
+    - "회원가입 / 로그인 기능 제공"
+    - "소셜 로그인 기능 제공(구글)"
+    - "체팅 목록 기능 제공"
+    - "친구 검색 기능 제공"
+    - "체팅 기능(텍스트, 이미지)"
+    - "프로필 변경 기능 제공"
+  techs: 
+    - "Firebase"
+    - "FBSDKLoginKit"
+    - "GooleSignIn"
+    - "MessageKit"
+    - "JGProgressHUD"
+    - "RealmSwift"
+    - "SDWebImage"
 
 agency:
   title: "Go gitHub"

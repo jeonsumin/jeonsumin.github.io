@@ -1,0 +1,30 @@
+---
+layout: project
+permalink: /:title/
+category: projects
+
+meta:
+keywords: "Terry, iOS, Swift"
+
+project:
+title: "ManholeCT"
+type: "iOS"
+logo: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow.jpg"
+tech: "iOS, BLE,  "
+
+agency:
+title: "Go gitHub"
+url: "https://github.com/jeonsumin/CoinFlow"
+year: "2020.9, 2020.10"
+ 
+images:
+- image:
+  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_chart.png"
+- image:
+  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_chartDetail.png"
+- image:
+  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_news.png"
+- image:
+  url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/CoinFlow/CoinFlow_newsDetail.png"
+---
+<p>내가 보고싶은 코인의 일,주,월,년의 코인차트를 확인할 수 있고 코인에 대한 뉴스를 확인할 수 있는 어플 구현</p>

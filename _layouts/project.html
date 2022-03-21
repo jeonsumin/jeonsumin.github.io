@@ -19,9 +19,20 @@
 					<h1>{{ page.project.title }}</h1>
 					<span class="h2">Role</span>
 					{{ page.content }}
+
 					<div class="project-meta">
+						<span class="h2">functional details</span>
+						{% for detail in page.project.details %}
+						<li>
+							{{ detail }}
+						</li>
+						{% endfor %}
 						<span class="h2">Technologies</span>
-						<p>{{ page.project.tech }}</p>
+						{% for tech in page.project.techs %}
+						<li>
+							{{ tech }}
+						</li>
+						{% endfor %}
 						<span class="h2">Source</span>
 						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank"
 								rel="nofollow">{{ page.agency.title }}</a></p>

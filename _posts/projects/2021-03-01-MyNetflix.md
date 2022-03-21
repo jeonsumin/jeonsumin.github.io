@@ -10,8 +10,15 @@ project:
   title: "MyNetFlix"
   type: "iOS"
   logo: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/MyNetflix/myNetflix.png"
-  tech: "Kingflsher, Firebase, "
-
+  details:
+    - "Netflix 메인 리스트 목록 제공."
+    - "섹션별 리스트 목록 제공"
+    - "최근 검색어 저장"
+    - "검색 기능 제공"
+    - "미디어 재생 제공"
+  techs:
+    - "Kingflsher"
+    - "Firebase"
 agency:
   title: "Go gitHub"
   url: "https://github.com/jeonsumin/MyNetfilx"
