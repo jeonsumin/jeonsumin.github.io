@@ -26,7 +26,7 @@ agency:
 
 images:
   - image:
-    url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/MyNetflix/netflix_main.png"
+    url: "http://144.24.68.99/images/portfolio/3af037531a2bed8d0c1f8f8b87e9a6b4"
   - image:
     url: "https://cdn.jsdelivr.net/gh/jeonsumin/jeonsumin.github.io/assets/images/projects/MyNetflix/netflix_search.png"
   - image:
