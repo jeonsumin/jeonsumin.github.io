@@ -9,7 +9,7 @@ meta:
 project:
   title: "미세찰칵"
   type: "iOS"
-  logo: "https://trdevlab.kro.kr/portfolio/dust_main.png"
+  logo: "https://trdevweb.kro.kr/portfolio/dust/dust_main.png"
   details:
   - "미세찰칵 리펙토링"
   - "미세찰칵 유지보수"
@@ -21,14 +21,14 @@ agency:
 
 images:
   - image:
-    url: "https://trdevlab.kro.kr/portfolio/dust_detail_1.png"
+    url: "https://trdevweb.kro.kr/portfolio/dust/dust_detail_1.png"
   - image:
-    url: "https://trdevlab.kro.kr/portfolio/dust_detail_2.png"
+    url: "https://trdevweb.kro.kr/portfolio/dust/dust_detail_2.png"
   - image:
-    url: "https://trdevlab.kro.kr/portfolio/dust_detail_3.png"
+    url: "https://trdevweb.kro.kr/portfolio/dust/dust_detail_3.png"
   - image:
-    url: "https://trdevlab.kro.kr/portfolio/dust_detail_4.png"
+    url: "https://trdevweb.kro.kr/portfolio/dust/dust_detail_4.png"
   - image:
-    url: "https://trdevlab.kro.kr/portfolio/dust_detail_5.png"
+    url: "https://trdevweb.kro.kr/portfolio/dust/dust_detail_5.png"
 ---
 <p>미세찰칵앱 유지보수 </p>
