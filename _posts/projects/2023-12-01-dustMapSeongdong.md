@@ -11,9 +11,12 @@ project:
   type: "WEB"
   logo: "https://github.com/jeonsumin/jeonsumin.github.io/assets/51107183/5bdb9873-36ac-4057-adec-791b2b4f6ce8"
   details:
-    - "성동구에 설치된 에어체커 데이터(미세먼지/초미세먼지) 값을 볼 수 있습니다."
-    - "성동구의 산책길에 미세먼지 정보를 볼 수 있다."
-    - "성공구 골목길의 미세먼지 정보를 볼 수 있다."
+    - Spring Boot API 개발 
+    - 백앤드 개발 환경 구성 및 기본 기능 구현 
+    - 프론트앤드 인터페이스 구현
+    - Vue 개발 환경 구성 및 기본 기능 구현 
+    - Vue 컴포넌트 계층 구조 디자인 
+    
   techs:
     - Vue.JS
     - Java
@@ -21,7 +24,9 @@ project:
     - MySql
 
 agency:
-  year: "2023.01"
+  title: "바로가기"
+  url: 'http://61.39.163.50:30001/seongdong-finedust'
+  year: "2023.02 ~ 2023.11"
 
 images:
   - image:

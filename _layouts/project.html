@@ -17,11 +17,8 @@
 				<article>
 					<span class="h2">Project Title</span>
 					<h1>{{ page.project.title }}</h1>
-					<span class="h2">Role</span>
-					{{ page.content }}
-
 					<div class="project-meta">
-						<span class="h2">functional details</span>
+						<span class="h2">details</span>
 						{% for detail in page.project.details %}
 						<li>
 							{{ detail }}
@@ -53,14 +50,14 @@
 		</section>
 		<section class="project-navigation">
 			<div class="container">
-				{% if page.previous and page.previous.categories contains "projects" %}
+				{% if page.previous and page.previous.categories contains "web" %}
 				<a title="Previous {{ page.previous.project.title }}"
 					href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
 					<span class="h2">Previous</span>
 					<h2>{{ page.previous.project.title }}</h2>
 				</a>
 				{% endif %}
-				{% if page.next and page.next.categories contains "projects" %}
+				{% if page.next and page.next.categories contains "web" %}
 				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}"
 					class="next">
 					<span class="h2">Next</span>
