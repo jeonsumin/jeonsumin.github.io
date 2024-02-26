@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: mobile
 
 meta:
   keywords: "Terry, iOS, Swift"

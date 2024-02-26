@@ -1,19 +1,24 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: web
 
 meta:
   keywords: "Terry"
 
 project:
   title: "SeongDong-gu DustMap"
-  type: "iOS"
+  type: "WEB"
   logo: "https://github.com/jeonsumin/jeonsumin.github.io/assets/51107183/5bdb9873-36ac-4057-adec-791b2b4f6ce8"
   details:
     - "성동구에 설치된 에어체커 데이터(미세먼지/초미세먼지) 값을 볼 수 있습니다."
     - "성동구의 산책길에 미세먼지 정보를 볼 수 있다."
     - "성공구 골목길의 미세먼지 정보를 볼 수 있다."
+  techs:
+    - Vue.JS
+    - Java
+    - Spring Boot
+    - MySql
 
 agency:
   year: "2023.01"
