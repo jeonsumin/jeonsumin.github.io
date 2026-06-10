@@ -1,9 +1,13 @@
-import type { NextConfig } from "next";
+import type {NextConfig} from "next";
 
 const nextConfig: NextConfig = {
     output: process.env.NODE_ENV === "production" ? "export" : undefined,
     basePath: process.env.NODE_ENV === "production" ? "/jeonsumin.github.io" : undefined,
-  /* config options here */
+    /* config options here */
+    reactStrictMode: false,
+    images:{
+        remotePatterns: [{hostname: "*"}]
+    }
 };
 
 export default nextConfig;
