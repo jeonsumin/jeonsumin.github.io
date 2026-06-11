@@ -1,6 +1,6 @@
 import {Hero} from "@/widgets/hero";
 import {CategoryList} from "@/widgets/category-list";
-import {ProjectList} from "@/widgets/project-list/project-list";
+import {ProjectList} from "@/widgets/project-list";
 
 export default function Home() {
     return (
