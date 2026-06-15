@@ -17,9 +17,9 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 24
-          cache: npm
-      - run: npm ci
-      - run: npm run build
+          cache: pnpm
+      - run: pnpm ci
+      - run: pnpm run build
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
