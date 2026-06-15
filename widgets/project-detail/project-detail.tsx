@@ -46,7 +46,7 @@ export const ProjectDetail = ({project}: ProjectDetailProps) => {
 
                     <div className="space-y-3 rounded-xl border border-border p-5 shadow-sm">
                         <h2>기술 스펙</h2>
-                        <div>
+                        <div className="flex gap-2">
                             {project.tags.map((tag: string) => <Badge key={tag}>{tag}</Badge>)}
                         </div>
                     </div>
