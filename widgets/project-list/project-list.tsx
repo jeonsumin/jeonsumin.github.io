@@ -8,7 +8,11 @@ type ProjectListProps = {
 }
 
 export const ProjectList = ({projects, loading, error}: ProjectListProps) => {
-    if (loading) return <Spinner/>
+    if (loading) return (
+        <div className='max-w-[1140px] mx-auto flex justify-center'>
+            <Spinner/>
+        </div>
+    )
     if (error) return <p className="text-center text-red-500">{error.message}</p>
 
     return (

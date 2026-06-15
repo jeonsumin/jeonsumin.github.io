@@ -9,6 +9,6 @@ export const Badge = (
     }: BadgeProps
 ) => {
     return (
-        <p className="border w-fit px-2.5 rounded-full border-muted-foreground/50 text-muted-foreground">{children}</p>
+        <p className="w-fit px-2.5 text-sm bg-muted rounded-full text-xs">{children}</p>
     )
 }

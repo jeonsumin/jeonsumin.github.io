@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {act, useState} from "react";
 import {Button} from "@shared/ui/button";
 
 const CATEGORIES = ["ALL", "FrontEnd", "Backend", "Full Stack", "Mobile", 'DevOps', 'AL / ML']
@@ -13,6 +13,7 @@ export const CategoryList = () => {
                     CATEGORIES.map((item: string, index: number) =>
                         <Button
                             key={index}
+                            className="rounded-full py-1.5 px-3.5"
                             variant={active === item ? 'default' : 'outline'}
                             size={'xs'}
                             onClick={() => setActive(item)}
