@@ -8,7 +8,7 @@
     "start": "next start",
     "export": "next export",
     "lint": "eslint",
-    "deploy": "touch out/.nojekyll && gh-pages -d out -b deploy"
+    "deploy": "touch out/.nojekyll && gh-pages -d out -b deploy -t true"
   },
   "dependencies": {
     "next": "16.2.6",
