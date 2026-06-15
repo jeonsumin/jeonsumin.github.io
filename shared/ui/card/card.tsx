@@ -1,28 +1,28 @@
 import Image from "next/image";
-import {Label} from "../label";
+import {Badge} from "../badge";
 
 type CardProps = {
     title: string
-    imagPath: string
+    imagePath: string
     tags: string[]
 }
 
 export const Card = (
-    {title, imagPath, tags}: CardProps
+    {title, imagePath, tags}: CardProps
 ) => {
     return (
         <div className="flex flex-col gap-2">
             <Image
                 width={400}
                 height={300}
-                src={imagPath}
+                src={imagePath}
                 alt={title}
                 className="rounded-lg"
             />
-            <Label className="text-xs text-muted-foreground/50">{title}</Label>
+            <p className="text-xs text-muted-foreground/50">{title}</p>
             <div className="flex gap-1 flex-wrap">
                 {tags.map(tag => (
-                    <Label key={tag}>{tag}</Label>
+                    <Badge key={tag}>{tag}</Badge>
                 ))}
             </div>
         </div>

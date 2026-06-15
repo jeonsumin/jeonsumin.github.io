@@ -1,3 +1,3 @@
-export type {Project} from './model/types'
-export {fetchPortfolio} from './api'
+export type {Project, ProjectImage} from './model/types'
+export {fetchPortfolio, fetchPortfolioById} from './api'
 export {ProjectItem} from './ui/project-item'
