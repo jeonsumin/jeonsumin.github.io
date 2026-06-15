@@ -19,7 +19,7 @@ export default function Home() {
 
     return (
         <Suspense fallback={<Spinner/>}>
-            <Hero title={"Hero"} subTitle={"sub-title"}/>
+            <Hero title={""} subTitle={""}/>
             <CategoryList projects={projects} active={active} onSelect={setActive}/>
             <ProjectList projects={filtered} loading={loading} error={error}/>
         </Suspense>
