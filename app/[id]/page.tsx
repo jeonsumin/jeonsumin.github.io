@@ -1,6 +1,9 @@
 import {fetchPortfolio, fetchPortfolioById} from '@entities/project'
 import {ProjectDetail} from '@widgets/project-detail'
 
+// GitHub Pages serves only the routes generated during `next build`.
+export const dynamicParams = false
+
 export async function generateStaticParams() {
     const projects = await fetchPortfolio()
     return projects.map((project) => ({id: project.id}))
