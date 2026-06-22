@@ -1,0 +1,40 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - release
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # `.env.local` is intentionally ignored by Git, so provide the API origin
+      # explicitly while Next.js prerenders the static GitHub Pages output.
+      - run: pnpm build
+        env:
+          NEXT_PUBLIC_ERP_URL: https://erp.jeonsoomin.kro.kr
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./out
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v5

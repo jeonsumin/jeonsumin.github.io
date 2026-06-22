@@ -1,55 +1,36 @@
-# Pineapple
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Pineapple is a minimalistic [Jekyll](https://jekyllrb.com) portfolio theme that focuses on putting your projects in the spotlight.
+## Getting Started
 
-![Pineapple screenshot](https://user-images.githubusercontent.com/9528895/38713105-6dda8a74-3ec7-11e8-8062-8aa6cf24c795.jpg)
+First, run the development server:
 
-See Pineapple in action on the [demo site](https://arnolds.io/pineapple/).
-
-## Contents
-
-- [Setup](#setup)
-- [Deploy to Github Pages](#deploy-to-github-pages)
-- [Creating projects](#creating-projects)
-- [Resources](#resources)
-- [License](#license)
-
-## Setup
-
-Install dependencies:
-
-```
-$ gem install jekyll bundler
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-Pulldown the project:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-$ git clone git@github.com:arnolds/pineapple.git
-$ cd pineapple
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Start Jekyll:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```
->$ jekyll serve
-```
+## Learn More
 
-Browse to http://127.0.0.1:4000/pineapple/ for some Pineapple goodness.
+To learn more about Next.js, take a look at the following resources:
 
-## Deploy to Github Pages 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. Fork this repository, then rename the repository to yourgithubusername.github.io.
-2. Update user configuration values in `_config.yml`, and also set `baseurl: ""`.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Creating projects
+## Deploy on Vercel
 
-Projects are created as `.md` documents within the `_posts/projects` directory. They follow the same naming conventions as regular [Jekyll posts](https://jekyllrb.com/docs/posts/). Pineapple comes with four example projects, which you should use as a guide for creating your own e.g. [Red Pineapple](_posts/projects/2017-04-01-redpineapple.md).
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Resources
-
-- [Apple Devices PSD Mockup Templates](https://www.graphicsfuel.com/2016/04/apple-devices-psd-mockup-templates/)
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
