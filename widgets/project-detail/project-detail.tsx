@@ -1,6 +1,7 @@
-import Image from "next/image";
-import {type Project, type ProjectImage} from "@entities/project";
+import {type Project} from "@entities/project";
 import {Badge} from "@shared/ui/badge";
+import {ImageWithSkeleton} from "@shared/ui/image";
+import {ImageCarousel} from "./image-carousel";
 
 type ProjectDetailProps = {
     project: Project
@@ -16,24 +17,13 @@ export const ProjectDetail = ({project}: ProjectDetailProps) => {
             <div className="grid gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(280px,0.6fr)]">
                 <div className="space-y-8 flex flex-col gap-8">
                     <div>
-                        <Image
-                            width={400}
-                            height={300}
+                        <ImageWithSkeleton
                             className={"w-full rounded-xl"}
+                            imageClassName={"w-full h-auto"}
                             src={project.thumbnailUrl}
                             alt={project.title}
                         />
 
-                        {project.images?.map(({id, url}: ProjectImage) =>
-                            <Image
-                                key={id}
-                                width={400}
-                                height={300}
-                                className={"w-full rounded-xl"}
-                                src={url}
-                                alt={project.title}
-                            />
-                        )}
                     </div>
                 </div>
 
@@ -51,6 +41,11 @@ export const ProjectDetail = ({project}: ProjectDetailProps) => {
                         </div>
                     </div>
                 </aside>
+                <div className="col-span-full min-w-0">
+                    {project.images?.length > 0 && (
+                        <ImageCarousel images={project.images} alt={project.title} />
+                    )}
+                </div>
             </div>
         </div>
     )
